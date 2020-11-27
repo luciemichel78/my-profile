@@ -1,0 +1,93 @@
+body{background-color: rgb(245,245,220);
+}
+
+
+h1{font-family: lato, sans-serif}
+
+h2{color: brown;
+font-family: arial, serif
+line-height:1,6;}
+
+
+a{text-decoration: none;
+	color:brown;
+}
+a:hover{color: white 
+}
+
+.boite1{text-align: center;
+	background-color: white; margin: 30px; padding: 30px; border: 2px solid brown; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+}
+
+.boite2{text-align: center;
+background-color: white;
+ margin: 30px; padding: 30px;
+ border: 2px solid brown; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,1) }
+
+.boite3{text-align: center;
+	background-color: white;
+	 margin: 30px; padding: 30px;
+ border: 2px solid brown; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,1)}
+
+.boite4{text-align: center;
+	background-color: white;
+	 margin: 30px; padding: 30px;
+ border: 2px solid brown; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,1)}
+
+.boite5{text-align: center;
+	background-color: grey;
+	 margin: 30px; padding: 30px;
+ border: 2px solid brown; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,1)}
+
+	.container{
+		width: 600px; margin: 0 auto;
+	}
+
+	.image-lucie{border-radius: 20% ;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9); }
+
+  
+  @media (max-width: 960px) {
+ 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+.btn-blue{
+	background-color: brown;
+	color:white ;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white 
+}
+.list-inline{list-style: none;
+padding-left: 0px
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+.liste-inline i:hover {
+	font-size: 50px;
+}
